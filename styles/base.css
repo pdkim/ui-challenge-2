@@ -1,0 +1,25 @@
+body {
+  width: 480px;
+  margin: auto;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color: rgb(90, 89, 89);
+}
+
+h1 {
+  font-size: 24px;
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+form {
+  font-weight: bolder;
+}
+
+fieldset {
+  border: none;
+}
