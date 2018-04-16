@@ -1,0 +1,52 @@
+input[type=text] {
+  width: 90%;
+  padding: 5px;
+  color: rgb(139, 139, 139)19);
+}
+
+#validation input[type=text] {
+  border: solid 1px  rgb(197, 57, 57);;
+}
+
+.light {
+  background-color: rgb(209, 209, 209);
+}
+
+.dark {
+  background-color: rgb(131, 131, 131);
+}
+
+input[type=checkbox] {
+  transform: scale(4);
+  margin: 25px 20px 0px 20px;
+}
+
+input[type=radio] {
+  transform: scale(4);
+  margin: 25px 20px 0px 20px;
+}
+
+#button1 {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(209, 209, 209);
+  color: rgb(90, 89, 89);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type=submit] {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(105, 105, 105);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}

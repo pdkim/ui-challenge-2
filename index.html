@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    UI Challenge 2
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/base.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/layout.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/modules.css" />
+</head>
+
+<body>
+  <header>
+    <h1>UI Challenge - Custom Form Elements</h1>
+    <p>NOTE: <strong>DO NOT</strong> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
+  </header>
+  <main>
+    <form id="the-form">
+      <fieldset>
+        <div class="grouping">
+          Text Input
+          <br>
+          <input type="text" name="first-box" placeholder="placeholder text">
+        </div>
+        <div id="validation">
+          Text Input with Validation Error
+          <br>
+          <input type="text" name="second-box" placeholder="placeholder text">
+          <p id="red">Please enter a valid username</p>
+        </div>
+        <div class="grouping">
+          Select Box<br>
+          <select name="no-drop">
+            <option class="default" value="" disabled selected>Please select an option</option>
+          </select>
+        </div>
+        <div class="grouping">
+          Select Box - Open<br>
+          <select name="drop">
+            <option class="default" value="" disabled selected>Please select an option</option>
+            <option class="light" value="option1">Option 1</option>
+            <option class="dark" value="option2">Option 2</option>
+            <option class="light" value="option3">Option 3</option>
+            <option class="dark" value="option4">Option 4</option>
+            <option class="light" value="option5">Option 5</option>
+          </select>
+        </div>
+        <div class="grouping">
+          Checkbox<br>
+          <input type="checkbox">
+          <input type="checkbox" checked="checked">
+        </div>
+        <div class="grouping">
+          Radio<br>
+          <input type="radio" class="radio-shape">
+          <input type="radio" class="radio-shape" checked="checked">
+        </div>
+        <div class="grouping">
+          Buttons<br>
+          <button id="button1">Submit</button>
+          <input type="Submit">
+        </div>
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+</html>
