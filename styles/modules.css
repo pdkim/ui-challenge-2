@@ -4,22 +4,26 @@ input[type=text] {
   color: rgb(139, 139, 139)19);
 }
 
+#validation input[type=text] {
+  border: solid 1px  rgb(197, 57, 57);;
+}
+
+.light {
+  background-color: rgb(209, 209, 209);
+}
+
+.dark {
+  background-color: rgb(131, 131, 131);
+}
+
 input[type=checkbox] {
   transform: scale(4);
   margin: 25px 20px 0px 20px;
-  border: solid 1px;
-  border-radius: 0;
 }
 
 input[type=radio] {
   transform: scale(4);
   margin: 25px 20px 0px 20px;
-  border: solid 1px;
-  border-radius: 0;
-}
-
-input:checked {
-  font-family: 'Arial Narrow', Arial, sans-serif
 }
 
 #button1 {
@@ -38,7 +42,7 @@ input:checked {
 input[type=submit] {
   width: 150px;
   height: 50px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(105, 105, 105);
   color: white;
   font-size: 16px;
   font-weight: bold;
